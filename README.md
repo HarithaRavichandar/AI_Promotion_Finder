@@ -24,31 +24,29 @@ This project scrapes short texts from websites like **Amazon**, **Ajio**, and **
 
 
 ##  Folder Structure
-AI_Promotion_Finder/
-├── AI_Promotion_Finder.ipynb ← all steps in one notebook
+
+```bash
+AI_Promotion_Finder
+├── AI_Promotion_Finder.ipynb
 ├── AI_Promotion_Finder_Report_Updated.docx
-├── chromedriver.exe ← Selenium browser driver
-├── models/
-│ ├── promotion_classifier.pkl
-│ └── tfidf_vectorizer.pkl
-├── data/
-│ ├── raw/
-│ │ ├── amazon_raw.csv
-│ │ ├── ajio_raw.csv
-│ │ └── nykaa_raw.csv
-│ ├── labeled/
-│ │ ├── amazon_labeled.csv
-│ │ ├── ajio_labeled.csv
-│ │ └── nykaa_labeled.csv
-│ └── predicted/
-│ ├── amazon_predicted.csv
-│ ├── ajio_predicted.csv
-│ └── nykaa_predicted.csv
-
-
----
-
-
+├── chromedriver.exe
+├── models
+│   ├── promotion_classifier.pkl
+│   └── tfidf_vectorizer.pkl
+├── data
+│   ├── raw
+│   │   ├── amazon_raw.csv
+│   │   ├── ajio_raw.csv
+│   │   └── nykaa_raw.csv
+│   ├── labeled
+│   │   ├── amazon_labeled.csv
+│   │   ├── ajio_labeled.csv
+│   │   └── nykaa_labeled.csv
+│   └── predicted
+│       ├── amazon_predicted.csv
+│       ├── ajio_predicted.csv
+│       └── nykaa_predicted.csv
+```
 ##  How to Run
 
 1. Clone the repo
